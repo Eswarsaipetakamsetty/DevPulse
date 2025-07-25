@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+.container {
+  background: linear-gradient(to bottom right, #fb923c, #f97316);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.welcome {
+  position:absolute;
+  top: 3rem;
+  left: 3rem;
+  color: white;
+  font-family: 'Irish Grover', cursive;
+  line-height: 100%;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2.5rem;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.forgot {
+  text-align: right;
+  font-size: 0.8rem;
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+}
+
+.or {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+}
+
+.register {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.register span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.checkboxWrapper {
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+
+
+.passwordcontainer{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 1rem;
+}
+
+.passwordcontainer button {
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+  margin-left: 2em;
+  background-color: #dddddd00;
+  border-radius: 4px;
+  height: 1rem; 
+}

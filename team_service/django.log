@@ -1,0 +1,106 @@
+2025-07-25 04:07:56,974 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-25 09:37:55,878 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-25 04:08:35,976 [INFO] django.utils.autoreload: /app/team_service/settings.py changed, reloading.
+2025-07-25 09:38:32,347 [INFO] django.utils.autoreload: E:\Eswarsai\Projects\DevPulse\team_service\team_service\settings.py changed, reloading.
+2025-07-25 04:08:37,811 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-25 09:38:34,261 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-25 04:08:41,375 [INFO] django.utils.autoreload: /app/team_service/settings.py changed, reloading.
+2025-07-25 09:38:37,939 [INFO] django.utils.autoreload: E:\Eswarsai\Projects\DevPulse\team_service\team_service\settings.py changed, reloading.
+2025-07-25 04:08:43,092 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-25 09:38:39,414 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-25 09:39:08,448 [INFO] django.utils.autoreload: E:\Eswarsai\Projects\DevPulse\team_service\utils.py changed, reloading.
+2025-07-25 04:09:09,656 [INFO] django.utils.autoreload: /app/utils.py changed, reloading.
+2025-07-25 09:39:10,160 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-25 04:09:11,085 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-25 09:39:35,175 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-25 09:40:14,080 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-25 09:40:43,403 [WARNING] django.request: Unauthorized: /team/create/
+2025-07-25 09:40:43,404 [WARNING] django.server: "POST /team/create/ HTTP/1.1" 401 26
+2025-07-25 09:41:08,608 [INFO] django.utils.autoreload: E:\Eswarsai\Projects\DevPulse\team_service\utils.py changed, reloading.
+2025-07-25 04:11:08,181 [INFO] django.utils.autoreload: /app/utils.py changed, reloading.
+2025-07-25 09:41:10,275 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-25 04:11:09,408 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-25 09:42:42,803 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-25 09:42:50,948 [WARNING] django.request: Unauthorized: /team/create/
+2025-07-25 09:42:50,950 [WARNING] django.server: "POST /team/create/ HTTP/1.1" 401 26
+2025-07-25 09:43:02,693 [INFO] django.utils.autoreload: E:\Eswarsai\Projects\DevPulse\team_service\utils.py changed, reloading.
+2025-07-25 04:13:07,495 [INFO] django.utils.autoreload: /app/utils.py changed, reloading.
+2025-07-25 04:13:08,811 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-25 09:43:04,504 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-25 04:13:10,983 [WARNING] django.request: Unauthorized: /team/create/
+2025-07-25 04:13:10,986 [WARNING] django.server: "POST /team/create/ HTTP/1.1" 401 26
+2025-07-25 04:13:22,293 [WARNING] django.request: Unauthorized: /team/create/
+2025-07-25 04:13:22,295 [WARNING] django.server: "POST /team/create/ HTTP/1.1" 401 26
+2025-07-25 04:17:19,321 [INFO] django.utils.autoreload: /app/team_service/settings.py changed, reloading.
+2025-07-25 09:47:15,885 [INFO] django.utils.autoreload: E:\Eswarsai\Projects\DevPulse\team_service\team_service\settings.py changed, reloading.
+2025-07-25 09:52:19,929 [INFO] utils: {'userid': [{'authority': 'ROLE_USER'}], 'iat': 1753416189, 'exp': 1754887418}
+2025-07-25 09:52:19,931 [WARNING] django.request: Unauthorized: /team/create/
+2025-07-25 09:52:19,932 [WARNING] django.server: "POST /team/create/ HTTP/1.1" 401 26
+2025-07-25 04:30:22,218 [WARNING] django.request: Not Found: /api/team/create/
+2025-07-25 04:30:22,221 [WARNING] django.server: "POST /api/team/create/ HTTP/1.1" 404 2670
+2025-07-25 04:30:38,463 [WARNING] django.request: Not Found: /api/team/create/
+2025-07-25 04:30:38,464 [WARNING] django.server: "POST /api/team/create/ HTTP/1.1" 404 2670
+2025-07-25 10:04:58,314 [INFO] utils: {'user_id': 2, 'iat': 1753418019, 'exp': 1754889248}
+2025-07-25 10:04:58,573 [ERROR] django.request: Internal Server Error: /team/create/
+Traceback (most recent call last):
+  File "C:\Users\swathipetakamsetty\.pyenv\pyenv-win\versions\3.12.8\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swathipetakamsetty\.pyenv\pyenv-win\versions\3.12.8\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swathipetakamsetty\.pyenv\pyenv-win\versions\3.12.8\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swathipetakamsetty\.pyenv\pyenv-win\versions\3.12.8\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swathipetakamsetty\.pyenv\pyenv-win\versions\3.12.8\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swathipetakamsetty\.pyenv\pyenv-win\versions\3.12.8\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\swathipetakamsetty\.pyenv\pyenv-win\versions\3.12.8\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\swathipetakamsetty\.pyenv\pyenv-win\versions\3.12.8\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Eswarsai\Projects\DevPulse\team_service\teams\views.py", line 28, in post
+    if not serializer.is_valid():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swathipetakamsetty\.pyenv\pyenv-win\versions\3.12.8\Lib\site-packages\rest_framework\serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swathipetakamsetty\.pyenv\pyenv-win\versions\3.12.8\Lib\site-packages\rest_framework\serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swathipetakamsetty\.pyenv\pyenv-win\versions\3.12.8\Lib\site-packages\rest_framework\serializers.py", line 495, in to_internal_value
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\swathipetakamsetty\.pyenv\pyenv-win\versions\3.12.8\Lib\site-packages\rest_framework\serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\swathipetakamsetty\.pyenv\pyenv-win\versions\3.12.8\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swathipetakamsetty\.pyenv\pyenv-win\versions\3.12.8\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\swathipetakamsetty\.pyenv\pyenv-win\versions\3.12.8\Lib\site-packages\rest_framework\serializers.py", line 1054, in get_fields
+    assert hasattr(self, 'Meta'), (
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Class TeamWithMembersSerializer missing "Meta" attribute
+2025-07-25 10:04:58,584 [ERROR] django.server: "POST /team/create/ HTTP/1.1" 500 129819
+2025-07-25 10:10:55,456 [INFO] utils: {'user_id': 2, 'iat': 1753418019, 'exp': 1754889248}
+2025-07-25 10:10:56,811 [ERROR] django.request: Internal Server Error: /team/create/
+2025-07-25 10:10:56,812 [ERROR] django.server: "POST /team/create/ HTTP/1.1" 500 60
+2025-07-25 10:13:49,842 [INFO] utils: {'user_id': 2, 'iat': 1753418019, 'exp': 1754889248}
+2025-07-25 10:13:51,054 [ERROR] django.request: Internal Server Error: /team/create/
+2025-07-25 10:13:51,055 [ERROR] django.server: "POST /team/create/ HTTP/1.1" 500 220
+2025-07-25 10:28:08,707 [INFO] utils: {'user_id': 2, 'user_role': 'manager', 'org_id': '8f1b92ac-7fd0-44b3-b099-57a5d069013d', 'iat': 1753419372, 'exp': 1754890601}
+2025-07-25 11:09:50,221 [INFO] utils: {'user_id': 2, 'user_role': 'manager', 'org_id': '8f1b92ac-7fd0-44b3-b099-57a5d069013d', 'iat': 1753419372, 'exp': 1754890601}
+2025-07-25 11:12:29,543 [INFO] utils: {'user_id': 2, 'user_role': 'manager', 'org_id': '8f1b92ac-7fd0-44b3-b099-57a5d069013d', 'iat': 1753419372, 'exp': 1754890601}
+2025-07-25 11:27:04,390 [INFO] team_service.middleware: POST /team/create/ from 127.0.0.1
+2025-07-25 11:27:04,413 [INFO] utils: {'user_id': 2, 'user_role': 'manager', 'org_id': '8f1b92ac-7fd0-44b3-b099-57a5d069013d', 'iat': 1753419372, 'exp': 1754890601}
+2025-07-25 11:29:50,444 [INFO] team_service.middleware: POST /team/create/ from 172.18.0.1
+2025-07-25 11:29:50,446 [INFO] utils: {'user_id': 2, 'user_role': 'manager', 'org_id': '8f1b92ac-7fd0-44b3-b099-57a5d069013d', 'iat': 1753419372, 'exp': 1754890601}

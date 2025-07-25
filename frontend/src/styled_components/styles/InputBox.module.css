@@ -1,0 +1,23 @@
+.inputBox {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.inputBox label {
+    display: block;
+    color: black;
+    font-weight: 50;
+    margin-bottom: 0.25rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inputBox input {
+    height: 1rem;
+    width: 96%;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(249, 192, 148, 0.9);
+    color: black;
+}
